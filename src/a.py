@@ -1,0 +1,6 @@
+import geopy.distance
+
+
+print(geopy.distance.distance((55.6803363, 37.4938462), (55.68040009651412, 37.49374378421293)).m)
+print(geopy.distance.distance((55.7871363, 37.6764931), (55.786768575702204, 37.67695628042602)).m)
+print(geopy.distance.distance((55.7646498, 37.5570585), (55.7643963679873, 37.55556394912)).m)
